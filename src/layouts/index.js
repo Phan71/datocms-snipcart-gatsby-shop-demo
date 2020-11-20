@@ -42,7 +42,7 @@ const Layout = ({ children, site }) => (
           pour commander sur le site internet <a href="https://jevendstout.netlify.app/">https://jevendstout.netlify.app</a>
         </div>
         <div className="Footer">
-          Email <a href="sss.rrr@gmail.com">sss.rrr@gm</a>
+          Email <a href="sss.rrr@gmail.com">sss.rrr@gmail</a>
         </div>
         <div className="Footer">
           numéro de tétéplone : 99 99 99 99 99
