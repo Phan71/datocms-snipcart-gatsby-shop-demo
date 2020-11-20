@@ -19,7 +19,7 @@
   font-style: italic;
 
   a {
-    font-size: 6em;
+    font-size: 1 em;
     font-weight: bold;
     position: relative;
     color: white;
@@ -43,25 +43,5 @@
 }
 
 .Header__summary__line {
-  font-size: 0.8em;
-}
-
-@keyframes noise-anim {
-  $steps: 20;
-
-  @for $i from 0 through $steps {
-    #{percentage($i * (1 / $steps))} {
-      clip:rect(random(100) + px, 9999px, random(100) + px, 0);
-    }
-  }
-}
-
-@keyframes noise-anim-2 {
-  $steps: 20;
-
-  @for $i from 0 through $steps{
-    #{percentage($i * (1/$steps))}{
-      clip:rect(random(100) + px, 9999px, random(100) + px, 0);
-    }
-  }
+  font-size: 2 em;
 }
