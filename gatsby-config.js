@@ -2,7 +2,7 @@ require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
-    siteName: 'JeVendsTous',
+    siteName: 'Je Vends Tout',
   },
   plugins: [
     'gatsby-plugin-sass',
