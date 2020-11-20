@@ -19,13 +19,13 @@ const Layout = ({ children, site }) => (
             </h1>
             <div className="Header__summary snipcart-summary snipcart-checkout">
               <div className="Header__summary__title">
-                🛍 MY CART 🛍
+                🛍 MA COMMANDE 🛍
               </div>
               <div className="Header__summary__line">
-                Number of items: <span className="snipcart-total-items"></span>
+                Nombre d'article: <span className="snipcart-total-items"></span>
               </div>
               <div className="Header__summary__line">
-                Total price: <span className="snipcart-total-price"></span>
+                Total à payer: <span className="snipcart-total-price"></span>
               </div>
             </div>
           </div>
@@ -37,7 +37,15 @@ const Layout = ({ children, site }) => (
       <div className="Wrap" >
         <div className="Footer">
           Ma boutique en ligne 
-          pour commander sur le site internet <a href="https://jevendstout.netlify.app/">https://jevendstout.netlify.app</a>, Email <a href="sss.rrr@gmail.com">sss.rrr@gmail.com</a>.
+          </div>
+        <div className="Footer">
+          pour commander sur le site internet <a href="https://jevendstout.netlify.app/">https://jevendstout.netlify.app</a>
+        </div>
+        <div className="Footer">
+          Email <a href="sss.rrr@gmail.com">sss.rrr@gm</a>
+        </div>
+        <div className="Footer">
+          numéro de tétéplone : 99 99 99 99 99
         </div>
       </div>
     </div>
