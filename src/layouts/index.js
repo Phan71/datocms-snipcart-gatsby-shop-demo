@@ -36,8 +36,8 @@ const Layout = ({ children, site }) => (
       </div>
       <div className="Wrap" >
         <div className="Footer">
-          This website is just an example project to demonstrate how you can 
-          integrate <a href="https://www.gatsbyjs.org/">Gatsby</a>, <a href="https://snipcart.com/">Snipcart</a> and <a href="https://www.datocms.com">DatoCMS</a>.
+          Ma boutique en ligne 
+          pour commander sur le site internet <a href="https://jevendstout.netlify.app/">https://jevendstout.netlify.app</a>, Email <a href="sss.rrr@gmail.com">sss.rrr@gmail.com</a>.
         </div>
       </div>
     </div>
