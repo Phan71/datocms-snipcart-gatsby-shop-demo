@@ -51,7 +51,7 @@ export default () => (
                   data-item-price={product.price}
                   data-item-image={product.image.url}
                   data-item-name={product.name}
-                  data-item-url={`https://determined-easley-e806d0.netlify.app/`}
+                  data-item-url={`https://jevendstout.netlify.app/`}
                 >
                   Add to cart
                 </button>
