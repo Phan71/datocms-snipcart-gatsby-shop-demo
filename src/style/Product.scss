@@ -117,16 +117,3 @@
   }
 }
 
-@keyframes blink {
-  $steps: 20;
-
-  @for $i from 0 through $steps {
-    #{percentage($i * (1 / $steps) + ((15 - random(30)) / 15) * (1 / $steps))} {
-      @if ($i % 3 == 0) {
-        opacity: 1;
-      } @else {
-        opacity: 0;
-      }
-    }
-  }
-}
