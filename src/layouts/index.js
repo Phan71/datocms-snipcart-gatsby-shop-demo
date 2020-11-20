@@ -25,7 +25,7 @@ const Layout = ({ children, site }) => (
                 Nombre d'article: <span className="snipcart-total-items"></span>
               </div>
               <div className="Header__summary__line">
-                Total à payer: <span className="snipcart-total-price"></span>
+                TOTAL à payer: <span className="snipcart-total-price"></span>
               </div>
             </div>
           </div>
@@ -36,15 +36,9 @@ const Layout = ({ children, site }) => (
       </div>
       <div className="Wrap" >
         <div className="Footer">
-          Ma boutique en ligne 
-          </div>
-        <div className="Footer">
-          pour commander sur le site internet <a href="https://jevendstout.netlify.app/">https://jevendstout.netlify.app</a>
-        </div>
-        <div className="Footer">
-          Email <a href="sss.rrr@gmail.com">sss.rrr@gmail</a>
-        </div>
-        <div className="Footer">
+          Ma boutique en ligne "Je Vends Tout" <br /> 
+          Pour commander <a href="https://jevendstout.netlify.app/">https://jevendstout.netlify.app</a><br />
+          Email :  <a href="sss.rrr@gmail.com">sss.rrr@gmail</a><br />
           numéro de tétéplone : 99 99 99 99 99
         </div>
       </div>
