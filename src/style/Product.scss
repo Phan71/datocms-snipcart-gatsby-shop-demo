@@ -73,26 +73,6 @@
   position: relative;
   font-weight: bold;
 
-  &:hover {
-    text-decoration: underline;
-
-    &:before {
-      content: "Yes now";
-      position: absolute;
-      top: -10px;
-      left: 60%;
-      white-space: nowrap;
-      font-family: "times new roman", times, serif;
-      font-weight: normal;
-      font-style: italic;
-      mix-blend-mode: difference;
-      text-transform: lowercase;
-      text-decoration: overline;
-      color: #00efff;
-      font-size: 2em;
-      animation: blink 6s steps(4, end) infinite alternate-reverse;
-    }
-  }
 }
 
 @keyframes cross-1 {

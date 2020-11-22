@@ -6,7 +6,10 @@
   border: 3px solid black;
   background-color: white;
   padding: 20px 30px;
-
+.Footer__body {
+  display: flex;
+  align-items: center;
+}
   a {
     font-weight: bold;
     text-decoration: underline;

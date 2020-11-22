@@ -53,7 +53,7 @@ export default () => (
                   data-item-name={product.name}
                   data-item-url={`https://jevendstout.netlify.app/`}
                 >
-                  Add to cart
+                  Ajouter au panier
                 </button>
               </div>
             </div>
