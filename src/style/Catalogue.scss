@@ -1,15 +1,22 @@
 .Catalogue {
-  margin: 16vh 0;
+  margin: 10px 0;
 }
 
 .Catalogue__item {
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
+.category {
+  font-size: xx-large;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: "times new roman", times, serif;
+  font-style: italic;
+  }
 
 @media screen and (min-width: 600px) {
   .Catalogue {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
   }
 
@@ -21,7 +28,7 @@
 @media screen and (min-width: 900px) {
   .Catalogue {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
   }
 
